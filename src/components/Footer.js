@@ -2,7 +2,7 @@ import React from 'react';
 import { node, shape, string, arrayOf } from 'prop-types';
 import styled, { css } from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle, faShareAlt } from '@fortawesome/pro-solid-svg-icons';
+import { faPlusCircle, faShareAlt } from '@fortawesome/free-solid-svg-icons';
 import {
     faBitcoin,
     faTwitter,

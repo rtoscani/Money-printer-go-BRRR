@@ -16,7 +16,7 @@ const MusicPlayer = styled(Player)`
 
 const Music = ({ playbackRate, handleToggleMute, ...props }) => (
     <MusicPlayer
-        url="https://www.youtube.com/watch?v=fTFxE32onKs"
+        url="https://www.youtube.com/watch?v=J8PDMuY1d-U"
         player={YouTubePlayer}
         play={player => player && player.playVideo && player.playVideo()}
         playbackRate={Math.max(playbackRate / 25, 0.25)}

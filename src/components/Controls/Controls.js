@@ -3,9 +3,9 @@ import { shape, bool, number, string, func } from 'prop-types';
 import styled, { css, keyframes } from 'styled-components';
 import {
     faFont,
-    faMusic,
-    faMusicSlash
-} from '@fortawesome/pro-solid-svg-icons';
+    faVolumeDown,
+    faVolumeMute
+} from '@fortawesome/free-solid-svg-icons';
 import Title from '../Title';
 import Slider from './Slider';
 import Button from './Button';
@@ -104,7 +104,7 @@ const Controls = ({
     return (
         <Container {...props}>
             <Title>
-                Money printer go&nbsp;
+                BCRA printer go&nbsp;
                 <Brrr playbackRate={playbackRate}>B{rs.map(() => 'R')}</Brrr>
             </Title>
             <ControlBar>
@@ -130,7 +130,7 @@ const Controls = ({
                         onClick={toggleSymbolModal}
                     />
                     <Button
-                        icon={!playing || muted ? faMusicSlash : faMusic}
+                        icon={!playing || muted ? faVolumeDown : faVolumeMute}
                         ariaLabel={muted ? 'Unmute' : 'Mute'}
                         onClick={handleToggleMute}
                     />

@@ -25,7 +25,7 @@ const Home = () => {
     const [playing, setPlaying] = useState(true);
     const [playbackRate, setPlaybackRate] = useState(25);
     const [muted, setMute] = useState(false);
-    const [symbol, setSymbol] = useState('DJI');
+    const [symbol, setSymbol] = useState('USDARS');
 
     const handleRateSlider = value => {
         setPlaybackRate(value);

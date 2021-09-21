@@ -1,7 +1,7 @@
 {
-    "name": "Money printer go BRRR",
+    "name": "BCRA printer go BRRR",
     "short_name": "BRRR.money",
-    "description": "Print it, baby!",
+    "description": "Dale que va!",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#000000",

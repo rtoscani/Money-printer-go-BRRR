@@ -181,10 +181,9 @@
         ]
     },
     "dependencies": {
-        "@fortawesome/fontawesome-pro": "^5.12.1",
-        "@fortawesome/fontawesome-svg-core": "^1.2.27",
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
         "@fortawesome/free-brands-svg-icons": "^5.13.0",
-        "@fortawesome/pro-solid-svg-icons": "^5.12.1",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
         "@fortawesome/react-fontawesome": "^0.1.9",
         "@zeit/next-css": "^1.0.1",
         "csshake": "https://github.com/elrumordelaluz/csshake.git",

@@ -3,9 +3,9 @@ import Head from 'next/head';
 import { createGlobalStyle } from 'styled-components';
 import 'focus-visible';
 
-const title = 'Money printer go BRRR';
-const description = 'Print it, baby!';
-const author = 'Institute for Memetic Research & Development';
+const title = 'BCRA printer go BRRR';
+const description = 'Dale que va!';
+const author = 'Creditos a: Institute for Memetic Research & Development';
 const url = 'https://brrr.money';
 const brandColor = '#000000';
 
